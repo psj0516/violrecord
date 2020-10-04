@@ -1,0 +1,126 @@
+#hd {
+  margin: auto;
+  padding: 0px 30px;
+  background: rgb(82, 29, 82);
+  height: 200px;
+  display: block;
+}
+
+.container {
+  width: 100%;
+}
+
+#hd .ht1, .ht2 {
+ display: none;
+}
+
+#hd .ht3 {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+
+#hd .logo img {
+  display: block;
+  width: 150px;
+  margin: auto;
+}
+
+#navbar .container {
+  padding: 0;
+}
+
+#navbar ul {
+  flex-direction: column;
+  text-align: center;
+  padding: 0;
+}
+
+#navbar li {
+  padding: 5px 0;
+  border-bottom: 1px dotted rgb(75, 75, 75);
+}
+
+#home-info .container {
+  width: 100%;
+}
+
+#home-info h1 {
+  line-height: 1em;
+}
+
+#home-info p {
+  font-size: 14px;
+}
+
+#info {
+  height: 400px;
+}
+
+#info .info-img {
+  display: none;
+}
+
+#info .info-content {
+  width: 320px;
+  float: none;
+  padding: 60px 10px;
+  margin: 0 auto;
+}
+
+.sponsor img {
+  width: 100px;
+}
+
+.info {
+  width: 100%;
+}
+
+#tagsearch .tagbutton {
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+#sell .item-container {
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+#sell img {
+  width: 120px;
+}
+
+#sell .thumbnail {
+  height: 120px;
+}
+
+#sell .items table {
+  width:120px;
+  margin: 5px;
+  font-size: 10px;
+}
+
+#sell .items th {
+  width: 45px;
+}
+
+.notice .btn {
+  font-size: 15px;
+}
+
+#contact-info .container {
+  width: 100%;
+  height: 450px;
+  display: block;
+  padding: 0;
+}
+
+.box {
+  padding-top: 25px;
+  width: 100%;
+  height: 33.33%;
+  text-align: center;
+  border-bottom: dotted rgb(201, 141, 201) 1px;
+}
